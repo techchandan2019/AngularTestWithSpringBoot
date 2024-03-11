@@ -1,0 +1,20 @@
+<div class="container">
+    <h2 >Add stduent details</h2>
+<form (ngSubmit)="addStudentData()">
+    <div class="mb-3">
+      <label for="Name" class="form-label">Student Name</label>
+      <input type="email" class="form-control" id="sname" name="sname" [(ngModel)]="student.sname" >
+    </div>
+    <div class="mb-3">
+        <label for="Name" class="form-label">Student Address</label>
+        <input type="email" class="form-control" id="address" name="address" [(ngModel)]="student.address" >
+      </div>
+      <div class="mb-3">
+        <label for="Name" class="form-label">Student Departments</label>
+        <input type="email" class="form-control" id="dept" name="dept"  [(ngModel)]="student.dept" >
+      </div>
+    
+   
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  </div>

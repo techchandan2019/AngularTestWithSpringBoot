@@ -1,0 +1,16 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+        <th scope="col">Deptartment</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let stud of studentList">
+        <td>{{stud.sname}}</td>
+        <td>{{stud.address}}</td>
+        <td>{{stud.dept}}</td>
+      </tr>
+    </tbody>
+  </table>
